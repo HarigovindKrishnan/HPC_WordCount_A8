@@ -22,5 +22,5 @@ The workflow involves exploring multiple optimization methods such as different 
 
 ---
 ## 🔹 Evaluation Metrics:
-Wall-clock time: elapsed time.
-Speedup: T1 / Tp (sequential time divided by parallel time).
+- Wall-clock time: elapsed time.
+- Speedup: T1 / Tp (sequential time divided by parallel time).
