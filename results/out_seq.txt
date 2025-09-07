@@ -1,0 +1,24 @@
+File: data/sample.txt
+Total tokens: 989195
+Unique words: 24876
+Top 20 words:
+ 30398  the
+ 28507  and
+ 24201  i
+ 21095  to
+ 18758  of
+ 16490  a
+ 14654  you
+ 13204  my
+ 12530  in
+ 12272  that
+  9923  is
+  9068  not
+  8627  s
+  8522  with
+  8282  for
+  8281  me
+  8248  it
+  7605  his
+  7422  he
+  7401  be
