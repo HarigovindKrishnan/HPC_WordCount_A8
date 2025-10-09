@@ -1,0 +1,2 @@
+
+Elapsed (mmap+parallel): 1.354 s
