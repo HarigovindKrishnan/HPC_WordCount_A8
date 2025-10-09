@@ -1,0 +1,2 @@
+
+Elapsed (parallel + pinned): 1.218 s

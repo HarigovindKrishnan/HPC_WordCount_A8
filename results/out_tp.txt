@@ -1,0 +1,28 @@
+Thread 2 pinned to cores: 2 
+Thread 1 pinned to cores: 1 
+Thread 0 pinned to cores: 0 
+Thread 3 pinned to cores: 3 
+File: data/combined.txt
+Total tokens: 16603612
+Unique words: 250323
+Top 20 words:
+1233965  the
+622020  of
+493339  and
+450795  in
+370615  to
+343743  a
+173450  is
+161876  as
+148159  was
+133934  for
+130855  that
+127461  by
+120710  with
+107254  on
+ 85509  from
+ 82200  are
+ 75973  it
+ 70618  his
+ 68629  an
+ 68428  or
