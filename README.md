@@ -17,17 +17,21 @@ Basic Parallelization using OMP:
 
    vi) Each thread then atomically merges their WordCount to the global unordered map.
 
-   To compile: g++ -O3 -fopenmp src/wordcount_omp.cpp -o results/wordcount_omp_dataset1
-
-   To run: ./results/wordcount_omp_dataset1 data/sample.txt 20 > results/out_omp_dataset1.txt 2> results/time_omp_dataset1.txt
+To compile:
+```bash
+g++ -O3 -fopenmp src/wordcount_omp.cpp -o results/wordcount_omp_dataset1
+```
+To run: 
+```bash
+./results/wordcount_omp_dataset1 data/sample.txt 20 > results/out_omp_dataset1.txt 2> results/time_omp_dataset1.txt
+```
    
-
 - Using **OpenMP** for shared-memory parallelism to parallely work on chunks of the text data.
 
 ---
 ## 🔹 Results:
   ## Dataset 1 (5.1 Mb):
-
+```bash
   i) Total tokens: 989195
 
   ii) Unique words: 24876
@@ -44,10 +48,11 @@ Basic Parallelization using OMP:
   v) Efficiency:
   -  27.9% (4 threads)
   -  49%   (2 threads)
+  ```
 
 
   ## Dataset 2 (102 Mb):
-
+   ```bash
   i) Total tokens: 16603612
 
   ii) Unique words: 250323
@@ -64,4 +69,5 @@ Basic Parallelization using OMP:
   v) Efficiency:
   -  48.1% (4 threads)
   -  76.35%   (2 threads)
+   ```
 
