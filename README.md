@@ -91,9 +91,22 @@ Top 20 words:
 - Other punctuation is treated as word separators
 - Multiple spaces are collapsed into single spaces
 
+
 ## Performance
 
 The parallel implementation provides significant speedup on multi-core systems, especially for large files. Processing time scales approximately linearly with file size and inversely with the number of available CPU cores.
+-Elapsed time:
+  Avg Execution time (across 3 runs):
+  -  1.300 s [4 Threads]
+  -  1.876 s [2 Threads]
+    
+-Speedup: 
+  -  1.890 (4 threads)
+  -  1.311 (2 threads)
+    
+- Efficiency:
+  -  47.25% (4 threads)
+  -  65.55%   (2 threads)
 
 ## License
 
